@@ -23,7 +23,7 @@ connection.query("select * from products", function (error, results, fields) {
 
     for (let i = 0; i < results.length; i++) {
         const products = results[i];
-        console.log(products.items_id + " " + products.product_name + " " + products.price)
+        console.log(products.items_id + " "  + products.product_name + " " + products.price)
     }
     promptUser();
   
